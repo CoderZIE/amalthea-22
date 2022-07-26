@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amaltha' 18</title>
+    <title>Amaltha' 22</title>
     <link rel="stylesheet" href="ved.css">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Goldman&family=Hurricane&family=Open+Sans:wght@300&family=Red+Hat+Mono:wght@300&family=Rubik+Glitch&display=swap" rel="stylesheet">
 </head>
