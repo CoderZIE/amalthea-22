@@ -1,0 +1,119 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .bg {
+            background-color: black;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .heading {
+            font-size: 2.7rem;
+            color: #f2f2f2;
+            margin: 0%;
+            padding: 2.7%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 1rem;
+            width: 1rem;
+            margin: 0 0.125rem;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+
+        .sm {
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            margin-top: 5vh;
+            padding-bottom: 5vh;
+        }
+
+        .expl_twt {
+            display: flex;
+            height: 75vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            width: 40vw;
+            margin-left: 7.5vw;
+            margin-right: 2.5vw;
+
+        }
+
+        .expl_fb {
+            display: flex;
+            height: 75vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            width: 40vw;
+            margin-left: 2.5vw;
+            margin-right: 7.5vw;
+        }
+
+        .yt {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 480px) {
+            .sm{
+                display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;}
+
+            .expl_fb{
+                
+                width: 60vh;
+            }
+
+            .expl_twt{
+                
+                width: 60vh;
+            }
+        }
+  
