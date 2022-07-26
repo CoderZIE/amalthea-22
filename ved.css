@@ -1,12 +1,12 @@
-*{
+#intro *{
     font-size: 18px;
 }
-.intro{
+#intro .intro{
     margin-left: 5rem;
     margin-right: 5rem;
 }
 
-.schedule{
+#intro .schedule{
     text-align: center;
     font-size: 1.3rem;
     padding: 1rem;
@@ -16,11 +16,11 @@
     border-radius: 0.3rem;
 }
 
-b{
+#intro b{
     font-size: 1.3rem;
 }
 
-.register{
+#intro .register{
     text-align: center;
     padding: 1rem;
     font-size: 1.3rem;
@@ -30,67 +30,67 @@ b{
     border-radius: 0.3rem;
 }
 
-.link{
+#intro .link{
     font-size: 1.3rem;
     text-decoration: none;
     color: black;
     font-weight: 1000;
 }
 
-h2{
+#intro h2{
     text-align: center;
     font-size: 2rem;
     color: rgb(65, 64, 64);
 }
 
-.it{
+#intro .it{
     /* border: 2px solid red; */
     margin-right: 1.3rem;
     width: 50%;
 }
 
-.ourvision{
+#intro .ourvision{
     /* border: 2px solid red; */
     width: 50%;
     margin-left: 1rem;
 }
 
-ul li{
+#intro ul li{
     margin-bottom: 0.5rem;
 }
 
-.fontfamily{
+#intro .fontfamily{
     font-family: 'Open Sans', sans-serif;
 }
 
-.justify{
+#intro .justify{
     text-align: justify;
 }
 
-.flex{
+#intro .flex{
     margin:2rem;
     display: flex;
 }
 
 
 
-.text{
+#intro .text{
     font-size: 1rem;
 }
 
 
 
 @media(max-width: 990px){
-    *{
+    #intro *{
         font-size: 13px;
     }
-    .flex{
+    #intro .flex{
         flex-direction: column;
     }
-    .it{
+    #intro .it{
         width: 100%;
     }
-    .ourvision{
+    #intro .ourvision{
         width: 100%;
     }
 }
