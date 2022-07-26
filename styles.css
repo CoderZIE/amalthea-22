@@ -410,10 +410,12 @@ img{
   bottom: 0;
 }
 .wrapper{
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap:5rem;
+  positon:relative;
 }
 
