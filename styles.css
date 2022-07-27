@@ -323,12 +323,18 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 
 
 
-img{
+#testimonials {
+
+    margin:80px auto 80px;
+}
+
+
+#testimonials img{
   border-radius: 5px 5px 0 0;
   height: 200px;
   width: 280px;
 }
-.container{
+#testimonials .container{
 
   display: flex;
   color:#EEEEEE;
@@ -343,39 +349,41 @@ img{
   overflow: hidden;
   transition: 0.5s
 }
-.container:hover{
+#testimonials .container:hover{
   background-color: #373A40;
   transform: scale(1.04);
 
 
 }
-.container:hover .card{
+
+
+#testimonials .container:hover .card{
   opacity: 0.04;
 }
-.container:hover .dis1{
+#testimonials .container:hover .dis1{
 
   transform: translateY(-250px);
 }
-.container:hover .dis2{
+#testimonials .container:hover .dis2{
 
-  transform: translateY(-260px);
+  transform: translateY(-265px);
 }
-.container:hover .dis3{
+#testimonials .container:hover .dis3{
 
-  transform: translateY(-270px);
+  transform: translateY(-275px);
 }
-.card{
+#testimonials .card{
   transition: 0.3s;
 
 
 }
-.card h3{
+#testimonials .card h3{
   margin-bottom: 0;
 }
-.card p{
+#testimonials .card p{
   margin-top: 4px;
 }
-.dis{
+#testimonials .dis{
   position: relative;
   justify-content: center;
   align-items: center;
@@ -388,28 +396,67 @@ img{
 }
 
 
-.dis p{
+#testimonials .dis p{
 
   font-weight: 300;
   font-size: 1.2rem;
 }
-.leftquotes{
-  position: absolute;
-  top:0;
-  left: 0;
+#testimonials .leftquotes{
+    
+    position: absolute;
+    top:0;
+    left: 0;
 }
-.rightquotes{
+#testimonials .rightquotes{
+
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.wrapper{
-
+#testimonials .wrapper{
+  position:relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap:5rem;
-  positon:relative;
+  
 }
 
+#testimonials .extra{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonials h1 {
+    margin:10px;
+    text-align: center;
+    font-size: 4rem;
+}
+#testimonials .heading{
+    display: block;
+    position: relative;
+    padding: 0 20px;
+  }
+
+#testimonials h1::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    border-left: 2px solid teal;
+    background-color: white;
+    animation: typewriter 3s ease infinite;
+  }
+@keyframes typewriter {
+    to{
+      left: 100%;
+    }
+  
+  }
+  
