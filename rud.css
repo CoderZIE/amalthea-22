@@ -14,6 +14,7 @@
 
         #explore-amalthea img {
             vertical-align: middle;
+            height: auto
         }
 
         #explore-amalthea .heading {
@@ -31,6 +32,11 @@
             max-width: 1000px;
             position: relative;
             margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            width: 100%;
         }
 
 
