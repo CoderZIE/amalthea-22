@@ -1,125 +1,136 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
 
-        #explore-amalthea * {
-            margin: 0px;
-            padding: 0px;
-        }
+#explore-amalthea * {
+    margin: 0px;
+    padding: 0px;
+}
 
-        #explore-amalthea .bg {
-            background-color: black;
-        }
+#explore-amalthea .bg {
+    background-color: black;
+    height: 158vh;
+    margin-top: -5px;
+}
 
-        #explore-amalthea .mySlides {
-            display: none;
-        }
+#explore-amalthea .mySlides {
+    display: none;
+}
 
-        #explore-amalthea img {
-            vertical-align: middle;
-            height: auto
-        }
+#explore-amalthea img {
+    vertical-align: middle;
+    height: 50vh
+}
 
-        #explore-amalthea .heading {
-            font-size: 2.7rem;
-            color: #f2f2f2;
-            margin: 0%;
-            padding: 2.7%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+#explore-amalthea .heading {
+    font-size: 2.7rem;
+    color: #f2f2f2;
+    margin: 0%;
+    padding: 2.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        /* Slideshow container */
-        #explore-amalthea .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 50vh;
-            width: 100%;
-        }
-
-
-        /* The dots/bullets/indicators */
-        #explore-amalthea .dot {
-            height: 1rem;
-            width: 1rem;
-            margin: 0 0.125rem;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-        #explore-amalthea .active {
-            background-color: #717171;
-        }
-
-        /* Fading animation */
-        #explore-amalthea .fade {
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
-
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
+/* Slideshow container */
+#explore-amalthea .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+}
 
 
-        #explore-amalthea .sm {
-            display: flex;
-            flex-direction: row;
-            overflow: hidden;
-            margin-top: 5vh;
-            padding-bottom: 5vh;
-        }
+/* The dots/bullets/indicators */
+#explore-amalthea .dot {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.125rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
 
-        #explore-amalthea .expl_twt {
-            display: flex;
-            height: 75vh;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            width: 40vw;
-            margin-left: 7.5vw;
-            margin-right: 2.5vw;
+#explore-amalthea .active {
+    background-color: #717171;
+}
 
-        }
+/* Fading animation */
+#explore-amalthea .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
 
-        #explore-amalthea .expl_fb {
-            display: flex;
-            height: 75vh;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            width: 40vw;
-            margin-left: 2.5vw;
-            margin-right: 7.5vw;
-        }
+@keyframes fade {
+    from {
+        opacity: .4
+    }
 
-        #explore-amalthea .yt {
-            width: 100%;
-            height: 100%;
-        }
+    to {
+        opacity: 1
+    }
+}
 
-        @media screen and (max-width: 480px) {
-            .sm{
-                display: flex;
-            flex-direction: column-reverse;
-            justify-content: center;}
 
-            .expl_fb{
-                
-                width: 60vh;
-            }
+#explore-amalthea .sm {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+}
 
-            .expl_twt{
-                
-                width: 60vh;
-            }
-        }
-  
+#explore-amalthea .expl_twt {
+    
+    /* scrollbar-width: 1px; */
+    display: flex;
+    height: 65vh;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    width: 30vw;
+    margin-left: 7.5vw;
+    margin-right: 2.5vw;
+
+}
+
+
+#explore-amalthea .expl_fb {
+    display: flex;
+    height: 65vh;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    width: 50vw;
+    margin-left: 2.5vw;
+    margin-right: 7.5vw;
+}
+
+#explore-amalthea .yt {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .sm{
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;}
+
+    .expl_fb{
+        
+        width: 60vh;
+    }
+
+    .expl_twt{
+        
+        width: 60vh;
+    }
+}
+
