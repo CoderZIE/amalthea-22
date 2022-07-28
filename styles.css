@@ -1,9 +1,27 @@
  @import url(
 https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 ); 
- /* html, body {
+  html, body {
 	 height: 100%;
-} */
+   margin: 0;
+} 
+
+.zaml{
+  margin: 0;
+  padding: 30px;
+}
+
+.zimgtitle{
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+  .ztitle{
+    height: 500px;
+    background-color: #222831;
+  }
+
  body {
 	 background:#93DEFF;
 	 font-family: Alegreya Sans, sans-serif;
@@ -162,7 +180,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 	 left: 200px;
 	 right: 200px;
 	 bottom: 200px;
-	 background: ##3eb5ff;
+	 background: #3eb5ff;
 	 transition-delay: 0.9s;
 }
  .open .l5 {
@@ -300,7 +318,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 }
 .open .l9:active {
   background: shade(#d1d2ff, 50%);
-  color: ##d1d2ff;
+  color: #d1d2ff;
 }
 .open .l9.toggle {
   transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
@@ -422,7 +440,7 @@ img{
   align-items: center;
   flex-wrap: wrap;
   gap: 10rem;
-  positon: relative;
+  position: relative;
 }
 
   
