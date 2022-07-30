@@ -636,7 +636,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
     left: 0;
     display: block;
     border-left: 2px solid teal;
-    background-color: white;
+    background-color: #93DEFF;
     animation: typewriter 4s steps(15) infinite;
   }
 @keyframes typewriter {
