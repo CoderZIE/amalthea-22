@@ -557,7 +557,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 }
 #testimonials .container:hover .dis3{
 
-  transform: translateY(-255px);
+  transform: translateY(-260px);
 }
 #testimonials .card{
   transition: 0.3s;
@@ -637,7 +637,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
     left: 0;
     display: block;
     border-left: 2px solid teal;
-    background-color: #93DEFF;
+    background-color: white;
     animation: typewriter 4s steps(15) infinite;
   }
 @keyframes typewriter {
