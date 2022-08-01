@@ -556,7 +556,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 }
 #testimonials .container:hover .dis3{
 
-  transform: translateY(-270px);
+  transform: translateY(-260px);
 }
 #testimonials .card{
   transition: 0.3s;
