@@ -385,18 +385,19 @@
 
 @media only screen and (min-width:550px ) and (max-width:800px){
     #footer *{
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 
 @media only screen and (min-width:350px ) and (max-width:550px){
     #footer *{
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 
 @media only screen and (min-width:250px ) and (max-width:350px){
     #footer *{
-        font-size: 5px;
+        font-size: 6px;
     }
 }
+
