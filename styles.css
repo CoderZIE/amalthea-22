@@ -178,8 +178,8 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
   }
 
  #title{
-	 position:relative;
-	 z-index: 10;
+/* 	 position:relative;
+	 z-index: 10; */
 	 background:#93DEFF;
 	 font-family: Alegreya Sans, sans-serif;
 }
