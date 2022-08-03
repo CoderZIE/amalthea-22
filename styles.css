@@ -208,6 +208,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 	 transform: translate3d(0, 0, 0);
 }
  nav.top-right {
+	 z-index: 1;
 	 top: -170px;
 	 right: -170px;
 }
