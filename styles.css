@@ -34,7 +34,7 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
     top: 0;
     left: 0;
     width: 100%;
-    height: 480px;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -168,12 +168,13 @@ https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900&#39;
 
 .zimgtitle{
   position: absolute;
+  height: 50vh
   left: 500px;
   top: 200px;
 }
 
   .ztitle{
-    height: 500px;
+    height: 100vh;
     background-color: #222831;
   }
 
