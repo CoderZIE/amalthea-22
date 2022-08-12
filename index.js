@@ -1,3 +1,7 @@
+var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
 
 toggle = document.querySelectorAll(".toggle")[0];
 nav = document.querySelectorAll("nav")[0];
